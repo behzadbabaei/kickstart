@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "compile": "node ./ethereum/compile.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,7 +15,7 @@
     "fs-extra": "^11.2.0",
     "ganache": "^7.9.2",
     "mocha": "^10.8.2",
-    "solc": "^0.4.17",
+    "solc": "^0.8.28",
     "web3": "^4.16.0"
   }
 }
